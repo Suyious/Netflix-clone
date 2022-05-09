@@ -57,6 +57,7 @@ function Row({ title, fetchURL, isBackdrop }) {
                 isBackdrop ? movie.backdrop_path : movie.poster_path
               }`}
               alt={movie.title || movie.name}
+              loading="lazy"
             />
             <h1>{movie.title || movie.name}</h1>
           </div>
