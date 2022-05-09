@@ -2,11 +2,11 @@
     position: relative;
     color: #fff;
     object-fit: contain;
-    height: 448px;
+    height: 600px;
   }
   
   .banner__content {
-    padding: 2em;
+    padding: 15em 0 0 2em;
     height: 190px;
   }
   
