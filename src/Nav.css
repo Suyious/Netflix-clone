@@ -2,8 +2,9 @@
   position: fixed;
   padding: 1rem;
   z-index: 1;
-  width: 100%;
+  width: 100vw;
   top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   transition-timing-function: ease-in;

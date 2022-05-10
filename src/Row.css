@@ -33,11 +33,29 @@
   color: rgba(255, 255, 255);
   font-size: 100%;
   position: absolute;
-  bottom: 1em;
-  left: 1em;
   z-index: 1;
   font-weight: 400;
+}
+
+.row__movie_title{
+  bottom: 1em;
+  left: 1em;
   width: 80%;
+}
+
+.row__movie_rating{
+	top: 1em;
+	right: 1em;
+	text-align: right;
+	padding: 0 0.6em;
+	border-radius: 2px;
+	background: #00000078 ;
+}
+
+.row__movie_rating svg{
+	fill: #fff;
+	width: 1em;
+	margin-right: 0.5em;
 }
 
 .row__poster {
