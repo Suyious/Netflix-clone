@@ -2,4 +2,5 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --overlay-gradient: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7136363636363636) 41%, rgba(0,0,0,0) 100%);
 }

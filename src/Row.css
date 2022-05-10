@@ -4,7 +4,8 @@
 }
 
 .row h2 {
-  margin-left: 1rem;
+  margin: 1rem;
+  font-weight: 300;
 }
 
 .row__posters {
@@ -24,15 +25,19 @@
   margin-right: 0.5em;
   transition: transform 450ms;
   height: 15rem;
+  width: 26.5rem;
 }
 
 .row__movie h1 {
   display: none;
-  color: rgba(255, 255, 255, 0.733);
+  color: rgba(255, 255, 255);
   font-size: 100%;
   position: absolute;
   bottom: 1em;
   left: 1em;
+  z-index: 1;
+  font-weight: 400;
+  width: 80%;
 }
 
 .row__poster {
@@ -53,5 +58,15 @@
 
 .row__movie_backdrop:hover {
   transform: scale(1.03);
+}
+
+.row__movie:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 30%;
+  background: var(--overlay-gradient);
+  width: 100%;
 }
 
