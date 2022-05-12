@@ -25,7 +25,6 @@
   margin-right: 0.5em;
   transition: transform 450ms;
   height: 15rem;
-  width: 26.5rem;
 }
 
 .row__movie h1 {
@@ -75,8 +74,12 @@
   display: block;
 }
 
-.row__movie_backdrop:hover {
+.row__movie.row__movie_backdrop:hover {
   transform: scale(1.03);
+}
+
+.row__movie.row__movie_normal{
+	min-width: 172px;
 }
 
 .row__movie:hover::after {
