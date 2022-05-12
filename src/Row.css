@@ -82,6 +82,10 @@
 	min-width: 172px;
 }
 
+.row__movie.row__movie_backdrop{
+	min-width: 453px;
+}
+
 .row__movie:hover::after {
   content: "";
   position: absolute;
