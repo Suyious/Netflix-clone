@@ -1,3 +1,7 @@
+:root {
+  background: #111;
+}
+
 .App {
   background: #111;
   color: #fff;
@@ -13,6 +17,7 @@
   overflow-y: hidden;
   overflow-x: scroll;
   padding: 1em;
+  gap: 1em;
 }
 
 .row__posters::-webkit-scrollbar {
@@ -79,11 +84,11 @@
 }
 
 .row__movie.row__movie_normal{
-	min-width: 172px;
+	min-width: 140px;
 }
 
 .row__movie.row__movie_backdrop{
-	min-width: 453px;
+	min-width: 373px;
 }
 
 .row__movie:hover::after {
