@@ -42,13 +42,13 @@
   padding-top: 0.1em;
 }
 
-.row__movie_title{
+.row__movie_title {
   bottom: 1em;
   left: 1em;
   width: 80%;
 }
 
-.row__movie_rating{
+.row__movie_rating {
 	top: 1em;
 	right: 1em;
 	text-align: right;
@@ -57,7 +57,7 @@
 	background: #00000078 ;
 }
 
-.row__movie_rating svg{
+.row__movie_rating svg {
 	fill: #fff;
 	width: 1em;
 	margin-right: 0.5em;
@@ -100,4 +100,3 @@
   background: var(--overlay-gradient);
   width: 100%;
 }
-
